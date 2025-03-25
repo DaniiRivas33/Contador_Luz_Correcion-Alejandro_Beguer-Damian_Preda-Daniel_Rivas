@@ -1,5 +1,4 @@
 # Contador_Luz_Correcion-Alejandro_Beguer-Damian_Preda-Daniel_Rivas
-___________________________________________________________________
 
 Cambios realizados a la pagina
 
