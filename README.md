@@ -1,5 +1,5 @@
 # Contador Luz Correcion
-## Alejandro_Beguer-Damian_Preda-Daniel_Rivas
+### Alejandro_Beguer-Damian_Preda-Daniel_Rivas
 
 Cambios realizados a la pagina
 
