@@ -1,6 +1,6 @@
 # Contador Luz Correcion
 ### Alejandro_Beguer-Damian_Preda-Daniel_Rivas
-
+----
 Cambios realizados a la pagina
 
 Añadido el botón 1 hora que añadirá al contador una hora junto con el gasto y el precio de dicho aparato durante esa hora.
