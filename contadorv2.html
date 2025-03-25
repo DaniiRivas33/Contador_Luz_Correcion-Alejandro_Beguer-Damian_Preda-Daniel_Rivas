@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Electrodomésticos</title>
+    <link rel="stylesheet" href="contadorv2.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <h1>Control de Electrodomésticos</h1>
+        <select class="est_cabecera" id="seleccionarHabitacion" onchange="agregarHabitacion()">
+            <option value="">Selecciona una habitación</option>
+            <option value="salon">Salón</option>
+            <option value="cocina">Cocina</option>
+            <option value="baño">Baño</option>
+            <option value="dormitorio1">Dormitorio 1</option>
+            <option value="dormitorio2">Dormitorio 2</option>
+            <option value="patio">Patio</option>
+            <option value="guardilla">Guardilla</option>
+            <option value="sotano">Sótano</option>
+        </select>
+    </header>
+    <div class="main-content">
+        <div id="habitaciones" class="habitaciones-container"></div>
+        <div class="appliance-box">
+            <h2>Total General</h2>
+            <div class="total-container">
+                <div id="totalCoste" class="total-cost-display">Base imponible: 0.00 €</div>
+                <div id="ivaCoste" class="iva-cost-display">IVA (21%): 0.00 €</div>
+                <div id="totalConIva" class="total-con-iva-display">Total con IVA repercutido: 0.00 €</div>
+            </div>
+        </div>
+        <button class="est_reset" onclick="resetearTotalGeneral()">Resetear Total General</button>
+    </div>
+    <script src="contadorv2.js"></script>
+</body>
+</html>
